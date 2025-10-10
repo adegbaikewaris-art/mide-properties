@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>properties</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- header section -->
+        <section class="header">
+            <img class="logo" src="./assets/logoo.png" alt="mide properties logo"/>
+            <!-- navbar -->
+             <button class="navbar-icon" id="navbarIcon" aria-label="Open menu">
+                <!-- Simple hamburger icon -->
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                   <rect y="6" width="28" height="3" rx="1.5" fill="#333"/>
+                   <rect y="13" width="28" height="3" rx="1.5" fill="#333"/>
+                   <rect y="20" width="28" height="3" rx="1.5" fill="#333"/>
+                </svg>
+            </button>
+            <div class="navbar-content" id="navbarContent">
+               <a href="index.html" class="footer-link">Home</a><br>
+               <a href="blogs.html" class="footer-link">Blogs</a><br>
+               <a href="properties.html" class="footer-link">Properties</a><br>
+               <a href="about.html" class="footer-link">About Us</a><br>
+               <a href="contact.html" class="footer-link none">Contact us</a><br>
+            </div>
+             <!-- nav-list -->
+             <nav class="nav-list">
+                <a href="index.html" class="nav-contents">Home</a>
+                <a href="blogs.html" class="nav-contents">Blogs</a>
+                <a href="properties.html" class="nav-contents">properties</a>
+                <a href="about.html" class="nav-contents">About Us</a>
+                <a href="about.html" class="nav-contents">Contact Us</a>
+             </nav>
+             <a href="login.html" class="nav-contents login">Login</a>
+        </section>
+        <!-- contact urls -->
+         <section class="contacts">
+            <div class="contact-us">
+                <h2 class="heading">CUSTOMER FEEDBACK</h2>
+                
+                <p class="note">we would be very glad to help and advise you if you have any questions or enquiries</p>
+                <h4>For enquiries contact:</h4>
+                <h4>Corporate Headquarters<br/>
+                    3, egbatedo close, iju lagos, Nigeria. <a href="tel:+2348063023172" class="icons" style="margin-left: 6px;">+234-806-302-3172</a>
+                </h4>
+                <h4>Client service</h4>
+                <p class="notes">Our service center</p>
+                <p><a href="mailto:ademolaayomide.okeira@gmail.com" class="icons">ademolaayomide.okeira@gmail.com</a></p>
+                <p><a href="tel:+2348063023172" class="icons">+234-806-302-3172</a></p>
+            </div>
+        </section>
+        <section class="social">
+            <div class="social-handle">
+                <h2 class="heading">official social accounts</h2>
+                <p class="notes">Official facebook page:<a href="https://web.facebook.com/ayomide.ademola.9237/" class="socials"> ayomide.ademola.9237/<img src="../assets/facebook.png" alt="facebook logo" class="svgs"/> </a></p>
+                <p class="notes">Official instagram page:<a href="https://www.instagram.com/mide__properties" class="socials"> mide__properties<img src="../assets/instagram.jpeg" alt="instagram logo" class="svgs"/> </a></p>
+                <p class="notes">Official Tiktok page:<a href="https://www.tiktok.com/@mide__properties" class="socials"> @mide__properties<img src="../assets/tiktok.png" alt="tiktok logo" class="svgs"/> </a></p>
+                <p class="notes">Official whatsapp account:<a href="tel:+2348063023172" class="socials"> +234-806-302-3172<img src="../assets/whatsapp.png" alt="whatsapp logo" class="svgs"/> </a></p>
+            </div>
+            <div class="social-handle">
+                <h2 class="heading"> Location</h2>
+                <a  href="https://www.google.com/search?q=3+egbatedo+cl%2C+iju%2C+lagos+100215%2C+lagos&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyDAgFECMYJxjqAhitBjIMCAYQIxgnGOoCGK0GMgwIBxAjGCcY6gIYrQbSAQo3MzYzODlqMGo3qAIIsAIB8QXd62WrX6GP3g&sourceid=chrome&ie=UTF-8" class="all" style="text-align: center;">we are located at 3 egbatedo cl, iju, lagos 100215, lagos</a>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <div class="footer-bottom" style="background-color: rgb(148, 92, 92); color: aliceblue; margin-top: 20px;">
+                <p class="copyright" >© 2024 Mide Homes & Properties Investment. All rights reserved.</p>      
+        </div>
+
+
+
+
+
+
+        <script>
+               const navbarIcon = document.getElementById('navbarIcon');
+               const navbarContent = document.getElementById('navbarContent');
+               navbarIcon.addEventListener('click', function() {
+    navbarContent.classList.toggle('active');
+});
+              
+            </script>
+    </body>
+</html>

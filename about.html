@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mide homes and properties</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!-- header section -->
+        <section class="header">
+            <img class="logo" src="./assets/logoo.png" alt="mide properties logo"/>
+            <!-- navbar -->
+             <button class="navbar-icon" id="navbarIcon" aria-label="Open menu">
+                <!-- Simple hamburger icon -->
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                   <rect y="6" width="28" height="3" rx="1.5" fill="#333"/>
+                   <rect y="13" width="28" height="3" rx="1.5" fill="#333"/>
+                   <rect y="20" width="28" height="3" rx="1.5" fill="#333"/>
+                </svg>
+            </button>
+            <div class="navbar-content" id="navbarContent">
+               <a href="index.html" class="footer-link">Home</a><br>
+               <a href="blogs.html" class="footer-link">Blogs</a><br>
+               <a href="properties.html" class="footer-link">Properties</a><br>
+               <a href="about.html" class="footer-link">About us</a><br>
+               <a href="contact.html" class="footer-link none">Contact us</a><br>
+            </div>
+             <!-- nav-list -->
+             <nav class="nav-list">
+                <a href="index.html" class="nav-contents">Home</a>
+                <a href="blogs.html" class="nav-contents">Blogs</a>
+                <a href="properties.html" class="nav-contents">properties</a>
+                <a href="about.html" class="nav-contents">About Us</a>
+                <a href="contact.html" class="nav-contents">Contact us</a>
+
+             </nav>
+             <a href="login.html" class="nav-contents login">Login</a>
+        </section>
+        <section class="one">
+            <h2 class="heading">About Mide Homes and Properties</h2>
+            </section>
+        <main>
+            <section style="padding: 20px;">
+                <h2 class="heading">Our Story</h2>
+                <p class="notes">
+                    Mide Homes and Properties was founded two years ago by Ayomide Adedamola with a vision to redefine real estate experiences in our community. Since our inception, we have been dedicated to providing exceptional property solutions, helping clients find their dream homes and lucrative investment opportunities.
+                </p>
+            </section>
+            <section style="padding: 5px 20px;">
+                <h2 class="heading">Our Mission</h2>
+                <p class="notes">
+                    Our mission is to deliver trustworthy, transparent, and customer-focused real estate services. We strive to make property ownership and investment seamless and rewarding for everyone.
+                </p>
+            </section>
+            <section style="padding: 5px 20px;">
+                <h2 class="heading">Why Choose Us?</h2>
+                <ul>
+                    <li>Experienced and passionate team</li>
+                    <li>Wide range of properties to suit every need</li>
+                    <li>Personalized guidance throughout your property journey</li>
+                    <li>Commitment to integrity and excellence</li>
+                </ul>
+            </section>
+            <h2 class="heading" style="text-align: center;">Meet the Founder</h2>
+            <section class="mr-mide" >
+                <img style="width: 300px; height: 250px;" src="./assets/mide.png" alt="mide image" class="mide"/>
+                <p class="notes">
+                    <strong class="heading" style="font-size: 1.34rem;">Ayomide Adedamola</strong> is a visionary entrepreneur with a passion for real estate and community development. With a focus on client satisfaction and innovation, Ayomide leads Mide Homes and Properties towards continuous growth and success.
+                </p>
+            </section>
+        </main>
+        <div class="footer-bottom" style="background-color: rgb(148, 92, 92); color: aliceblue; margin-top: 20px;">
+            <p class="copyright" >© 2024 Mide Homes & Properties Investment. All rights reserved.</p>      
+        </div>
+
+
+        <script>
+               const navbarIcon = document.getElementById('navbarIcon');
+               const navbarContent = document.getElementById('navbarContent');
+               navbarIcon.addEventListener('click', function() {
+    navbarContent.classList.toggle('active');
+});
+              
+            </script>
+    </body>
+</html>
