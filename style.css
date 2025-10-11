@@ -125,13 +125,14 @@ body{
 }
 .missions{
     font-size: 17px;
-    width: 97%;
+    width: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     color: rgb(243, 192, 192);
     font-weight: 600;
+    padding: 3px;
 }
 .cta-btn{
     background: linear-gradient(99deg, rgb(248, 92, 92), rgb(233, 158, 158), rgb(252, 67, 67));
@@ -288,8 +289,10 @@ body{
 .join-list{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap:15px;
-    width: 380px;
+    min-width: 320px;
+    max-width: 320px;
 }
 .join-btn{
     width: 90%;
